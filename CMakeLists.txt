@@ -31,4 +31,7 @@ target_link_libraries(cutefish-texteditor
   Qt5::Core
   Qt5::Quick
   KF5::SyntaxHighlighting
-  )
+)
+
+install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION /usr/bin)
+
