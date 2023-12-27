@@ -4,14 +4,11 @@ Elegant text editor for CutefishOS.
 
 ![screenshot](screenshots/Screenshot_20211221_212801.png)
 
-## Dependencies
-
-### Debian/Ubuntu
+## OpenMandriva Dependencies
 
 ```
-sudo apt install equivs curl git devscripts lintian build-essential automake autotools-dev --no-install-recommends
-
-sudo mk-build-deps -i -t "apt-get --yes" -r
+sudo dnf in task-develop
+sudo dnf install lib64KF5SyntaxHighlighting-devel
 ```
 
 ## Build
